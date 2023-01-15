@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Test</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+     <header> 
+      <h1 id="title">How much do you Know me??</h1>
+      <p id="description">Thank you for taking the time to answer all these useless and dumb questions made by me</p></header>
+    <div>
+        <form id="survey-form" action="" method="post">
+            <fieldset>
+                <label for="name" id="name-label">Enter your Name: <input id="name" type="text" name="name" placeholder="Give me your fullname, no petname shiz" required></label>
+                <label for="email" id="email-label">Enter your Email: <input id="email" type="email" name="email" placeholder="Please enter valid Email address" required></label>
+                <label for="number" id="number-label">Enter your age: <input id="number" type="number" min="1" max="20" name="number" placeholder="Can't be more than 20 years, C'mon bro!!"></label>
+            </fieldset>   
+            <fieldset>
+                <label for="dropdown" id="dropdown-label"> How did me meet?
+                    <select id="dropdown" name="dropdown" class="inline">
+                        <option value="">select one(please |_|)</option>
+                        <option value="1">Family</option>
+                        <option value="2">School</option>
+                        <option value="3">Intermidiate</option>
+                        <option value="4">College</option>
+                    </select>
+                </label>
+                <label for="love"><input type="radio" id="love" name="opinion" value="9"  class="inline"> Like me?</label>
+                <label> Reasons for liking me</label>
+                <label for="box1"><input type="checkbox" value="1" id="box1" class="inline" name="box1">interesting</label>
+                <label for="box2"><input type="checkbox" value="2" id="box2" class="inline" name="box2">friendly</label>
+                <label for="box3"><input type="checkbox" value="3" id="box3" class="inline" name="box3">funny</label>
+                <label for="box4"><input type="checkbox" value="4" id="box4" class="inline" name="box4">Caring</label>
+                <label for="hate"><input type="radio" id="hate" name="opinion" value="10"  class="inline"> Hate me?</label>
+                <label> Reasons for hating me</label>
+                <label for="box5"><input type="checkbox" value="5" id="box5" class="inline" name="box5">Selfish</label>
+                <label for="box6"><input type="checkbox" value="6" id="box6" class="inline" name="box6">Obnoxious</label>
+                <label for="box7"><input type="checkbox" value="7" id="box7" class="inline" name="box7">Narsisstic</label>
+                <label for="box8"><input type="checkbox" value="8" id="box8" class="inline" name="box8">Emotionless</label>
+                <label for="comment">Any comments? <textarea id="comment"  class="inline"></textarea></label>
+            </fieldset>
+
+            <input type="submit" id="submit" value="submit">
+        </form>
+    </div>
+  </body>
+</html>
