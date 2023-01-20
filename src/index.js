@@ -1,6 +1,6 @@
 import FetchWrapper from "./fetch-wrapper.js";
 import { capitalize, calculateCalories } from "./helpers.js";
-import snackbar from "snackbar.js";
+import snackbar from "snackbar";
 import AppData from "./app-data.js";
 import "chart.js";
 
